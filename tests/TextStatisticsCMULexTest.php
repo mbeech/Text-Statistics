@@ -1,7 +1,5 @@
 <?php
-
-// Include the text statistics class
-require_once dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'TextStatistics.php';
+use AddedBytes\TextStatistics;
 
 class TextStatisticsTestCMULex extends PHPUnit_Framework_TestCase
 {

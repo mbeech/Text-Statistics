@@ -1,0 +1,17 @@
+{
+  "name": "andrewmackrodt/Text-Statistics",
+  "authors": [
+    {
+      "name": "Dave Child",
+      "email": "dave@addedbytes.com"
+    }
+  ],
+  "require": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "AddedBytes\\": "src/"
+    }
+  }
+}

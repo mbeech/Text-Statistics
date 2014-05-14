@@ -1,4 +1,5 @@
 <?php
+namespace AddedBytes;
 
 /*
 
@@ -548,7 +549,7 @@ class TextStatistics
         }
 
         // Fetch Dale-Chall Words
-        include_once('resources/DaleChallWordList.php');
+        include __DIR__ . '/../resources/DaleChallWordList.php';
         $this->arrDaleChall = $arrDaleChallWordList;
 
         return true;
@@ -595,7 +596,7 @@ class TextStatistics
         }
 
         // Fetch Spache Words
-        include_once('resources/SpachelWordList.php');
+        include __DIR__ . '/../resources/SpacheWordList.php';
         $this->arrSpache = $arrSpacheWordList;
 
         return true;
